@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Šah</title>
+		<link rel="stylesheet" type="text/css" href="Šah.css">
+	</head>
+	<body >
+		<button onclick="topFunction()" id="dugme" title="Povratak na vrh">Vrh</button>
+		<div class="naslov">
+			<h1>Sah-mat</h1>
+		</div>
+		<div id="meni">
+			<ul>
+				<li><a href="Pravila.html" target="Pravila" >Pravila </a></li>
+				<li><a href="Otvaranja.html" target="Otvaranja" >Otvaranja</a></li>
+				<li><a href="Šahisti.html" target="Sahisti" >Šahisti</a></li>
+				<li><a href="Partije.html" target="Partije" >Partije</a></li>
+			</ul>
+		</div>
+		
+		<div id="tekst">
+			
+			<div class="tekst">
+				
+					<h3>Postanak šaha</h3>
+				<p>
+					Ne postoje pouzdani podaci o njegovom postanku. Najverovatnije je da se pojavio pre više od 2.000 godina. Prilikom arheoloških iskopavanja u Uzbekistanu nađene su dve figurice od slonovače koje pripadaju periodu vladavine cara Huviške (II vek). Stručnjaci smatraju da su to šahovske figurice. U V veku nastala je u Indiji posebna vrsta vojne igre na drvenoj ploči - „čaturanga“, što znači četverodeoni. Čaturanga je kao daleki predak današnjeg šaha bila igra koja je odražavala sastav i poredak tadašnje indijske vojske, koju su sačinjavala 4 roda: pešadija, konjica, slonovi i borna kola, a u sredini su se nalazili radža (kralj) i njegov savetnik mantrin (današnja kraljica ili dama). Kretanje figura određivalo se bacanjem kocke.
+				</p>
+				<p>
+					Igru su u VI veku prihvatili Persijanci (čatrang), a od njih u VII veku Arapi su osvajanjem Irana preuzeli i tokom naredna dva veka bila je veoma popularna u arapskim zemljama. Održavani su mečevi između najboljih igrača, proučena su moguća otvaranja (tabije) i sastavljeni su prvi problemi otvaranja (mansube). Halif Harun al Rašid je poslao krajem VIII veka francuskom vladaru Karlu Velikom na poklon šah od slonove kosti.
+				</p>
+				<p>
+					U IX veku Arapi su je pod imenom „šatrandž“ preneli u Španiju, Šatrandž predstavlja viši oblik čaturange. Ishod borbe više ne određuje slučaj (bacanje kockice), već logika i snalažljivost igrača. Igra postiže veliku popularnost i širi se po evropskim zemljama sve do Islanda. Francuski kralj Luj IX je 1254. godine izdao specijalni edikt koji je zabranjivao igranje šaha. U Evropi je šah usavršen uvođenjem rokade i povećanjem dejstva kraljice i lovca (kod Arapa je kraljica mogla ići samo po jedno polje ukoso, a lovac je mogao da skače ukoso na svako treće polje: pošto je teško bilo izvesti mat, postojala su dva načina da se pobedi - usamljivanjem protivničkog kralja i patom, koji se računao kao pobeda za patiranu stranu). Sa reformom su ukinuta ova dva načina pobede .
+				</p>
+				<p>
+					Usavršavanjem od drevne čaturange igra je poprimala današnji oblik. Nastala je u XV veku kada se 1497. godine pojavilo prvo štampano delo o šahu koje je napisao španski šahist Lusena. Njegovo delo su nastavili u XVI i XVII veku Španac Rui Lopez i Italijani Polerio i Greko, sve dok u XVIII veku francuski šahovski majstor Filidor delom Analiza šahovske igre (franc. Analyse des Échecs) nije postavio temelje savremenoj šahovskoj teoriji.
+				</p>
+				<h3>Ratnička simbolika figura</h3>
+				<p>	
+					Šahovske figurice, osim kralja i ferza (naša kraljica), simbolizuju četiri roda vojske prevodom na druge jezike simbolika se delimično izgubila. Pešak na nemačkom je "der Bauer" (seljak), u engleskom "pawn", od latinske reči "pedon" Figura "konjanik" (ili vitez) kako je nazivaju u engleskom. U ruskom je "konj", kod nas se koristi reč "skakač". Indijska figurica koja simolizuje slona i dan danas se naziva "slon" u ruskom. U nemačkom je "der Läufer", što znači "trkač". U srpskom je postala "lovac", a u engleskom "bishop" (biskup).
+				</p>
+			
+			</div>
+			<div id="slika">
+					<div class="slika">
+					<a href="Slike/Pocetna pozicija.jpg" target="_blank"><img src="Slike/Pocetna pozicija.jpg" alt="Sahovska tabla" ></a>	
+					</div>
+					<div>
+					<p>Početna pozicija figurica</p> 	
+					</div>	
+			</div>	
+		</div>
+		<br>
+		<hr>
+		
+
+			<p class="copyright"> Desing By  Andrija, Damjan i Daniel &copy; 2021</p>
+		
+		 <script>
+			var dugme = document.getElementById("dugme");
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() 
+			{  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				dugme.style.display = "block";
+			  } else {
+				dugme.style.display = "none";
+			  }
+			}
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+	</body>
+</html>

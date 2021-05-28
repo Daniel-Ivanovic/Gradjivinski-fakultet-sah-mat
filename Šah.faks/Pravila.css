@@ -1,0 +1,140 @@
+body{
+	background-image: url(Slike/Pozadina.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font:normal 16px Arial, sans-serif;
+	margin: 1% 3% ;
+}
+#dugme{
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background-color: lime;
+	border: none;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	padding: 12px;
+	border-radius: 8px;
+}
+#naslov{
+	background-color: lime;
+	padding: 3px;
+	border-radius: 12px;
+	width: 75%;
+	margin: auto;
+	align-self: auto;
+	opacity: 80%;
+	margin-bottom: 20px;
+    margin-top: 7px;
+}
+#naslov h1{
+    text-align: center;
+	margin: 0px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+#tekst{
+	padding:5px;
+	display: flex;
+	margin-left: 2%;
+	margin: 10px 5px 25px 15px;
+    width: 98%
+}
+.tekst{
+	margin: 10px 5px 0px 5px;
+	padding: 15px 10px ;
+	background-color: black;
+	color: whitesmoke;
+	opacity: 75%;
+	border-radius: 12px;
+    letter-spacing: 2px;	
+}
+.tekst div{
+    margin: 5px 5px ;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border-bottom: white solid 1px;
+	border-left:white solid 1px ;
+    
+}
+.tekst h4{
+    font-size: 20px;
+    color: lime;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 5px ; 
+}
+.tekst h3{	
+	text-align: center;
+	margin: auto;
+	padding: 5px 0 5px 0 ;
+}
+#lista ul{
+    padding: 0;
+    margin-top: 35px;
+}
+#lista li {	
+    list-style-type:none;
+	margin:5px 2px;
+	border:1px solid lime;
+	border-radius: 8px;
+    background-color: yellow;
+}
+li{
+	list-style-type:none;
+}
+#lista pre{
+    margin: 3px;
+}
+#lista a {
+	display:inline-block;
+	padding:3px;
+	text-decoration:none;
+	background-color:black;
+	border-radius: 8px;
+}
+#lista a:hover {
+	background-color:whitesmoke;
+	color:black;
+}
+#lista {
+	margin: auto;
+	margin:10px;
+	font-family: sans-serif;
+    text-align: left;
+    list-style-type:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#slika{
+    float: right;
+}
+hr{
+	opacity: 50%;
+	border: 1px lime solid;
+	border-radius: 3px;	
+}
+.Pocetna{
+	text-align: center;
+    width: max-content;
+    margin: auto;
+    padding-top: 10px;
+}
+.Pocetna a{
+	text-decoration: none;
+	color: whitesmoke;
+    font-size: 20px;
+}
+.copyright{
+    padding: 5px ;
+    margin-right: 35px;
+	float: right;
+    color: whitesmoke;
+}
